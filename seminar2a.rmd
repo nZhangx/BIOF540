@@ -1,0 +1,25 @@
+---
+title: "trial1"
+author: "NicoleZhang"
+date: "January 13, 2020"
+output: html_document:
+  keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Seminar 2b
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+mpg
+ggplot(data=mpg,aes(x = dipl,y=hwy,color=class)) + geom_point()
+```
+## Aesthetic mappings
+
+
+
+
